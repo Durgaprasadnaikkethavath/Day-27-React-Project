@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar_container {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.navbar_container li {
+  list-style: none;
+  margin: 40px;
+}
+
+.navbar_container li a {
+  color: white;
+  text-decoration: none;
+  background-color: #aaa;
+  border-radius: 5px;
+  padding: 12px 25px;
+}
+.navbar_container li a:hover {
+  background-color: aquamarine;
+  color: black;
+}
